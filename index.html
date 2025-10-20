@@ -8,27 +8,23 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
 </head>
 <body>
-    <header>
-        <div class=" d-flex justify-content-center">
-        <div class=" ">
+    <header class="d-flex justify-content-center">
+        <div>
               <h1>Bootstrap 5 Responsive Grid</h1>
-              <p class="text-secondary-emphasis">Layout 4 griglia con diversi breakpoint(sm,md,lg)</p>
-        </div>
+              <span class="text-secondary d-flex justify-content-center ">Layout 4 griglia con diversi breakpoint(sm,md,lg)</span>
         </div>
     </header>
 
     <main class="text-light py-5">
-        <section class="container bg-light text-black">
-            <div class="col-12 py-4">
+        <section class="container ">
+            <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 py-4  bg-light text-black  ">
                 <h2>Colonna 1</h2>
                 <p>Larghezza definita su dispositivi piccoli, metà linghezza su dispositivi medi e un terzo su dispostivi grandi</p>
             </div>
-        </section>
-
-       
-        <section class="container bg-secondary">
-         <div class="row">
-            <div class="col-12 py-4">
+          
+           
+            <div class="col-12 col-md-6 col-lg-8 py-4 bg-secondary">
                 <h2>Colonna 2</h2>
                 <p>Larghezza definita su dispositivi piccoli, metà linghezza su dispositivi medi e un terzo su dispostivi grandi</p>
             </div>
@@ -36,19 +32,19 @@
         </section>
 
 
-        <section class="container d.flex py-5">
+        <section class="container d-flex py-5">
         <div class="row">  
-            <div class="col-6 bg-primary py-4">
+            <div class="col-6 col-md-4 bg-primary py-4 ">
                 <h2>Colonna 1</h2>
                 <p>Metà larghezza su dispositivi piccoli e un terzo su dispostivi medi e grandi</p>  
             </div>
 
-            <div class="col-6 py-4 bg-success">
+            <div class="col-6 col-md-4 py-4 bg-success ">
                 <h2>Colonna 2</h2>
                 <p>Metà larghezza su dispositivi piccoli e un terzo su dispostivi medi e grandi</p>
             </div>
 
-            <div class="col-12 py-4 bg-danger">
+            <div class="col-12 col-md-4 py-4 bg-danger">
                 <h2>Colonna 3</h2>
                 <p>larghezza intera su dispostivi piccoli (col-12) e un terzo su dispostivi medi e più grandi</p>
             </div>
@@ -58,22 +54,22 @@
 
        <section class="container ">
         <div class="row">
-            <div class="col-6 bg-info py-4">
+            <div class="col-6 col-md-3 bg-info py-4">
                 <h2>Colonna 1</h2>
                 <p>Metà larghezza su dispositivi piccoli e un quarto su dispositivi più grandi</p>
             </div>
 
-            <div class="col-6 py-4 bg-warning">
+            <div class="col-6 col-md-3 py-4 bg-warning">
                 <h2>Colonna 2</h2>
                 <p>Metà larghezza su dispositivi piccoli e un quarto su dispositivi più grandi</p>
             </div>
 
-            <div class="col-6 py-4 bg-black">
+            <div class="col-6 col-md-3 py-4 bg-black ">
                 <h2>Colonna 3</h2>
                 <p>Metà largeezza su dispositivi piccoli e un quarto su dispositivi più grandi</p>
             </div>
 
-            <div class="col-6 py-4 bg-light text-black">
+            <div class="col-6 col-md-3 py-4 bg-light text-black ">
                 <h2>Colonna 4</h2>
                 <p>Metà larghezza su dispositivi piccoli e un quarto su dispositivi più grandi</p>
             </div>
